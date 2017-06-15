@@ -18,7 +18,7 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
     SmsManager smsManager;
     //SMS MERKEZ NUMARASI
-    private static final String MERKEZ_NUMARA = "+905398552645";
+    private static final String MERKEZ_NUMARA ; // to send number
     private Context context =this;
     private Button Bakiye;
     private Button KartBilgisi;
